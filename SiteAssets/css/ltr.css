@@ -1,0 +1,47 @@
+ul.social li{
+    margin-left: 15px;
+}
+.slider .carousel-caption{
+    right: 12%;
+    left: auto;
+}
+.contact ul.social li {
+    margin-right: 5px;
+    margin-left: 0;
+}
+.before-after .row:nth-child(even){
+    direction: rtl;
+}
+.before-after .txt{
+    text-align: left;
+}
+.faq ul li a[data-toggle]::before {
+    margin-right: 7px;
+    float: left;
+}
+.blog ul.info li{
+    margin-right: 15px;
+}
+.single-blog ul.info li{
+    margin-right: 15px;
+}
+
+/************* Responsive *************/
+    @media(max-width: 1024px){
+        .slider .carousel-caption {
+            left: 3%;
+        }
+    }
+    @media(max-width: 768px){
+
+    }
+    @media(max-width: 640px){
+
+    }
+    @media(max-width: 480px){
+        
+    }
+    @media(max-width: 360px){
+        
+    }
+/************* Responsive *************/
